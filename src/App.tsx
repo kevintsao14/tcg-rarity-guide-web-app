@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import PTCG from './Games/PTCG';
+import OPCG from './Games/OPCG';
+import WS from './Games/WS';
+import YGO from './Games/Yu-Gi-Oh';
+import Lorcana from './Games/Lorcana';
+import UA from './Games/UA';
+import { HashRouter } from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React Test branch 1
-        </a>
-      </header>
+    <div>
+      <HashRouter>
+      <h1>TCG Rarity Guide</h1>
+      <PTCG />
+      <OPCG />
+      <YGO />
+      <Lorcana />
+      <WS /> 
+      <UA />
+      </HashRouter>
+
     </div>
   );
 }
