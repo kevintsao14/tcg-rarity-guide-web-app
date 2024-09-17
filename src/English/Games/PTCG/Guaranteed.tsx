@@ -1,18 +1,14 @@
 import { Routes, Route } from "react-router";
-import Guaranteed from "./Guaranteed";
-import Navigation from "./navigation";
 import Rarity from "./Rarity";
+import Recentboosters from "./Recentboosters";
 
-export default function Recentboosters() {
+export default function Guaranteed() {
     return (
         <div>
-            <h2>Recent Boosters</h2>
+            <h2>Guaranteed Pull Rates PTCG</h2>
             <table>
                 <tbody>
                     <tr>
-                        <td valign="top">
-                            <Navigation />
-                        </td>
                         <td valign="top">
                             <Routes> 
                                 <Route path="/Guaranteed" element={<Guaranteed />} />

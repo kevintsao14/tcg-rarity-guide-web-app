@@ -3,7 +3,7 @@ import { HashRouter, Link, Route, Routes, Navigate } from 'react-router-dom';
 export default function OPCG() {
     return (
         <div id = "home-OPCG">
-            <Link to="/English/Games/OPCG/Guaranteed"><h2>One Piece Card Game</h2></Link>
+            <Link to="/English/Games/OPCG/Rarity"><h2>One Piece Card Game</h2></Link>
             
             <img id = "OPCG_Logo" src="images/OPCG_Logo.jpg" alt= "One Piece Card Game Logo" height={150} width={400}/>
 
@@ -11,3 +11,5 @@ export default function OPCG() {
 
     )
 }
+
+

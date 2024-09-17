@@ -1,5 +1,4 @@
-import React from 'react';
-import { HashRouter, Router, Link, Route, Routes, } from 'react-router-dom';
+import { Link, Route, Routes, } from 'react-router-dom';
 import PTCG from './Games/PTCG';
 import OPCG from './Games/OPCG';
 import WS from './Games/WS';
